@@ -1,0 +1,42 @@
+ <!-- About Section -->
+    <section class="" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Кто я?</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1">
+                    <p>Я - Fullstack-разработчик, ориентированный на работу с мощным и нагруженным бэкэндом. Выполняю работу "под ключ" - от выбора сервера и написания концепции, до готового продукта, работающего на вашем сервере. Пишу техдокументацию на двух языках.</p>
+                </div>
+                <div class="col-lg-5">
+                    <p>Разрабатываю электронику на микроконтроллерах Atmel, AVR, а также на готовых платформах. Пишу разнопрофильное ПО (от серверных скриптов до нагруженных микросервисов). Занимаюсь проектным менеджментом.</p>
+                </div>
+            </div>
+            <div class="whitespace"></div>
+            <div id="fillbars">
+                {% for skill in site.skill-bars %}
+                <div class="row">
+                    <div class="col-sm-2 filler-text text-center">
+                        <span>{{ skill.title }}</span>
+                    </div>
+                    <div class="col-sm-10 bar-col">
+                        <div class="barfiller">
+                            <span class="tip"></span>
+                            <span class="fill" data-percentage="{{ skill.percent }}"></span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="https://disk.yandex.ru/d/s9TYs6AHfeIP7g" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Посмотреть рекомендации
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
