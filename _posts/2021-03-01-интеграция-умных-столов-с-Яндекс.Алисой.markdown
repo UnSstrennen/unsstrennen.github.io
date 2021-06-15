@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 5
+date: 2021-02-15
+img: tabula.png
+alt: Интеграция умных столов с Алисой
+project-date: Март 2021
+client: Tabula Sense
+client-link: https://tabulasense.ru/
+category: Fullstack-разработка открытого ПО/Разработка электроники
+description: Реализация интеграции умных столов Tabula Sense с платформой Яндекс.Алиса. Разработка электронного модуля для стола, ПО для интеграции и авторизации пользователя, навыка для Яндекс.Алисы.
+---

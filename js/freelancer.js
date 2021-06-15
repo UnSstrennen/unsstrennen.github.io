@@ -54,5 +54,6 @@ function showFillbars() {
   }
 
 $(document).ready(function() {
+    showFillbars();
     window.onscroll = showFillbars;
 });

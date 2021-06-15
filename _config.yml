@@ -1,5 +1,5 @@
 # Site settings
-title: IT-специалист
+title: Fullstack-разработчик
 email: f/mdoyzand
 url: https://github.com/unsstrennen
 description: "Fullstack-разработка, создание сайтов, написание технической документации, IT/Проектный менеджмент"
@@ -8,10 +8,13 @@ skills: "Многопрофильная разработка - Создание 
 meta_author: Шишкин Никита
 
 # Google webmaster tools
-google_verify:
+google_verify: WlV4XRDBrqs5SIAbt5h_Kbcxrv6h5ONCtB6yr_5-LiE
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
+
+# Yandex webmaster tools
+yandex_verify: e25ae251c6b88817
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
@@ -57,6 +60,8 @@ skill-bars:
     percent: 80
   - title: PHP
     percent: 60
+  - title: Scrum
+    percent: 65
   - title: Docs (RU)
     percent: 95
   - title: Docs (EN)
@@ -78,6 +83,8 @@ social:
     url: https://stackoverflow.com/users/9231573/%d0%9d%d0%b8%d0%ba%d0%b8%d1%82%d0%b0-%d0%a8%d0%b8%d1%88%d0%ba%d0%b8%d0%bd
   - title: github
     url: https://github.com/UnSstrennen
+  - title: header  # habr
+    url: https://habr.com/ru/users/unsstrennen/
 
 # Postal address (add as many lines as necessary)
 address:
