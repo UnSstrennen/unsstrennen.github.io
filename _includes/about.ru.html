@@ -1,0 +1,41 @@
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Обо мне</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <p>Я — Tech Lead и IT Manager с более чем 7-летним опытом создания и масштабирования высоконагруженных IT-продуктов «с нуля». Реализую проекты полного цикла — от архитектуры и настройки инфраструктуры до внедрения и подготовки технической документации (на русском и английском).</p>
+      </div>
+      <div class="col-lg-6">
+        <p>Победитель ряда хакатонов. Обладаю опытом в области транспортного моделирования, разработки встроенных систем (Atmel, AVR, аппаратные платформы) и серверной разработки — от автоматизационных скриптов до распределённых микросервисов. Управляю проектами и командами разработки.</p>
+      </div>
+    </div>
+    <div class="whitespace"></div>
+    <div id="fillbars">
+      {% for skill in site.skill-bars %}
+      <div class="row">
+        <div class="col-sm-2 filler-text text-center">
+          <span>{{ skill.title }}</span>
+        </div>
+        <div class="col-sm-10 bar-col">
+          <div class="barfiller">
+            <span class="tip"></span>
+            <span class="fill" data-percentage="{{ skill.percent }}"></span>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <a href="https://disk.yandex.ru/d/s9TYs6AHfeIP7g" class="btn btn-lg btn-outline">
+          <i class="fa fa-download"></i> Посмотреть рекомендации
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

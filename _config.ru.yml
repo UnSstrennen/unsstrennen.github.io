@@ -1,11 +1,11 @@
-# Site settings
-title: "Nikita Shishkin"
+# Настройки сайта
+title: "Никита Шишкин"
 email: n-i-k-i-t@yandex.ru
 url: https://github.com/unsstrennen
-description: "Tech Lead / IT Manager, transportation modeling, software development, documentation, IT / Project management"
-keywords: "Website,Development,Developer,IT,Software,Project Management"
-skills: "Tech Lead / IT Manager - Python / DevOps / GIS - Project Management"
-meta_author: "Nikita Shishkin"
+description: "Tech Lead / IT Manager, моделирование транспортных систем, разработка ПО, документация, IT / Проектный менеджмент"
+keywords: "Сайт,Разработка,Разработчик,IT,Программирование,Проектный менеджмент"
+skills: "Tech Lead / IT Manager - Python / DevOps / GIS - Управление проектами"
+meta_author: "Шишкин Никита"
 
 # Google webmaster tools
 google_verify: WlV4XRDBrqs5SIAbt5h_Kbcxrv6h5ONCtB6yr_5-LiE
@@ -17,28 +17,26 @@ bing_verify:
 yandex_verify: e25ae251c6b88817
 
 # Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
 contact: static
 
 # If you use disqus you need disqus shortname
 disqus_shortname: myshortname
 
-# Color settings (hex-codes without the leading hash-tag)
+# Цвета
 color:
   primary: 5ecbd1 #80B3FF
-  primary-rgb: "94,203,209" #"128,179,255"
+  primary-rgb: "94,203,209"
   secondary: 2e5375 #FD6E8A
   secondary-dark: 233140 #A2122F
 
-# Footer settings
+# Подвал сайта
 footer:
   copyright: UnSstrennen
-  location: "Where to find me?"
-  social: "Follow me on social media"
-  credits: "Self-employed entrepreneur, NPD taxpayer"
+  location: "Где меня найти?"
+  social: "Я в соцсетях"
+  credits: "Самозанятый, НПД"
 
-# Bars with skills description
+# Навыки
 skill-bars:
   - title: Python
     percent: 95
@@ -73,7 +71,7 @@ skill-bars:
   - title: AVR
     percent: 70
 
-# Social networks usernames
+# Соцсети
 social:
   - title: telegram
     url: https://t.me/unsstrennen
@@ -84,15 +82,15 @@ social:
   - title: habr
     url: https://habr.com/ru/users/unsstrennen/
 
-# Postal address
+# Адрес
 address:
-  - line: "Moscow, Russian Federation/Kuala Lumpur, Malaysia"
-  - line: "Available for in-person meetings in my city!"
+  - line: "Москва, РФ / Куала-Лумпур, Малайзия"
+  - line: "Готов к очным встречам в своём городе!"
 
-# Credits content
-credits: "IP Shishkin Nikita Sergeevich<br>OGRNIP 323774600009751"
+# Credits
+credits: "ИП Шишкин Никита Сергеевич<br>ОГРНИП 323774600009751"
 
-# Build settings
+# Настройки сборки
 markdown: kramdown
 permalink: pretty
 
