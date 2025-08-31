@@ -18,17 +18,17 @@
                         {% endif %}
                         <ul class="list-inline item-details">
                             {% if post.client %}
-                                <li>Client:
+                                <li>Заказчик:
                                     <strong><a href="{{ post.client-link }}">{{ lang == "ru" and post.client_ru ? post.client_ru : post.client }}</a></strong>
                                 </li>
                             {% endif %}
                             {% if post.project-date %}
-                                <li>Date:
+                                <li>Дата:
                                     <strong><a class="inactiveLink">{{ post.project-date }}</a></strong>
                                 </li>
                             {% endif %}
                             {% if post.category %}
-                                <li>Category:
+                                <li>Категория:
                                     <strong><a class="inactiveLink">{{ lang == "ru" and post.category_ru ? post.category_ru : post.category }}</a></strong>
                                 </li>
                             {% endif %}
