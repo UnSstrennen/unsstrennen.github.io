@@ -4,9 +4,16 @@ modal-id: 1
 date: 2020-02-01
 img: sharxdc.png
 alt: Конфигуратор решений Sharx
+alt_en: Sharx Solutions Configurator
 project-date: Февраль 2020
+project-date_en: February 2020
 client: SharxDC
+client-en: SharxDC
 client-link: https://sharxdc.ru/
 category: Fullstack-разработка закрытого ПО
+category_en: Fullstack private software development
+title: Конфигуратор решений Sharx
+title_en: Sharx Solutions Configurator
 description: Разработка платформы для создания, хранения и экспорта технических решений Sharx с организацией доступа партнёров и сотрудников компании. Была решена задача по сопоставлению типов оборудования и компонентов с учётом различных параметров как оборудования, так и компонентов. Python3/Flask/PostgreSQL/Bootstrap4
+description_en: Development of a platform for creating, storing, and exporting Sharx technical solutions with partner and employee access management. Solved task of matching equipment and component types considering various parameters of both. Python3/Flask/PostgreSQL/Bootstrap4
 ---
