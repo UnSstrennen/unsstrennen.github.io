@@ -1,12 +1,19 @@
 ---
 layout: default
 modal-id: 5
-date: 2021-02-15
+date: 2021-03-01
 img: tabula.png
-alt: Интеграция умных столов с Алисой
-project-date: Март 2021
+alt: Smart Table Integration with Yandex Alice
+alt_ru: Интеграция умных столов с Алисой
+project-date: March 2021
+project-date_ru: Март 2021
 client: Tabula Sense
+client_ru: Tabula Sense
 client-link: https://tabulasense.ru/
-category: Fullstack-разработка открытого ПО/Разработка электроники
-description: Реализация интеграции умных столов Tabula Sense с платформой Яндекс.Алиса. Разработка электронного модуля для стола, ПО для интеграции и авторизации пользователя, навыка для Яндекс.Алисы.
+category: Open-source Fullstack / Electronics Development
+category_ru: Fullstack-разработка открытого ПО/Разработка электроники
+title: Smart Table Integration with Yandex Alice
+title_ru: Интеграция умных столов с Алисой
+description: Implementation of the integration of Tabula Sense smart tables with the Yandex.Alice platform. Development of the electronic module for the table, integration and user authorization software, and a Yandex.Alice skill.
+description_ru: Реализация интеграции умных столов Tabula Sense с платформой Яндекс.Алиса. Разработка электронного модуля для стола, ПО для интеграции и авторизации пользователя, навыка для Яндекс.Алисы.
 ---

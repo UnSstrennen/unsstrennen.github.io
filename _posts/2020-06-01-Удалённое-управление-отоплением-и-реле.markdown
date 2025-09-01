@@ -3,10 +3,17 @@ layout: default
 modal-id: 6
 date: 2020-06-01
 img: blynk.png
-alt: Удалённое управление отоплением
-project-date: Июнь 2020
-client: Сам себе клиент
+alt: Remote Heating Control
+alt_ru: Удалённое управление отоплением
+project-date: June 2020
+project-date_ru: Июнь 2020
+client: Personal usage
+client_ru: Сам себе клиент
 client-link: https://unsstrennen.github.io
-category: Разработка электроники
-description: Создание системы управления отоплением и реле в загородном доме. В качестве фреймворка для создания пульта управления используется Blynk. Управление ТЭНами - симисторное, контроллер - Arduino. Полное резервирование, аппаратный WatchDog. Сервер развёрнут на Raspberry Pi, находящейся в одной сети с устройством. Для подключения к управлению за NAT используется подключение к стороннему VPN-серверу, на котором открыты порты для подключения.
+category: Electronics Development
+category_ru: Разработка электроники
+title: Remote Heating Control
+title_ru: Удалённое управление отоплением
+description: Development of a system for controlling heating and relays in a country house. The Blynk framework is used for the control panel. Heater control is via triac, controller – Arduino. Full redundancy, hardware WatchDog. Server deployed on a Raspberry Pi in the same network as the device. For NAT connection, a third-party VPN server with open ports is used.
+description_ru: Создание системы управления отоплением и реле в загородном доме. В качестве фреймворка для создания пульта управления используется Blynk. Управление ТЭНами - симисторное, контроллер - Arduino. Полное резервирование, аппаратный WatchDog. Сервер развёрнут на Raspberry Pi, находящейся в одной сети с устройством. Для подключения к управлению за NAT используется подключение к стороннему VPN-серверу, на котором открыты порты для подключения.
 ---

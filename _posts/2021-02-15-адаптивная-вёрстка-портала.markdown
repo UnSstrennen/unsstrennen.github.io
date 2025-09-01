@@ -3,10 +3,17 @@ layout: default
 modal-id: 4
 date: 2021-02-15
 img: crypto-finance.png
-alt: Вёрстка портала
-project-date: Февраль 2021
-client: Crypto finance
+alt: Portal Layout
+alt_ru: Вёрстка портала
+project-date: February 2021
+project-date_ru: Февраль 2021
+client: Crypto Finance
+client_ru: Crypto finance
 client-link: https://crypto.finance/
-category: Проектный менеджмент
-description: Управление проектом по вёрстке портала crypto finance. Gulp/SCSS/HTML/JS. 
+category: Project Management
+category_ru: Проектный менеджмент
+title: Portal Layout
+title_ru: Вёрстка портала
+description: Project management for the development of the crypto finance portal layout. Gulp/SCSS/HTML/JS.
+description_ru: Управление проектом по вёрстке портала crypto finance. Gulp/SCSS/HTML/JS.
 ---
