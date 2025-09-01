@@ -55,36 +55,38 @@ color:
   secondary-dark: 233140
 
 skill-bars:
-  - title: Python
+  - title: IT Strategy & Management
     percent: 95
-  - title: Linux
+  - title: Project Management
     percent: 90
-  - title: Chat bots
-    percent: 95
-  - title: Data scrapping
-    percent: 80
-  - title: HTML
-    percent: 80
-  - title: CSS
-    percent: 45
-  - title: JS
-    percent: 80
-  - title: SQL
-    percent: 80
-  - title: PHP
-    percent: 60
-  - title: Scrum
-    percent: 65
-  - title: Docs
-    percent: 95
-  - title: Unit-testing
+  - title: Agile / Scrum
     percent: 90
-  - title: C/C++
-    percent: 70
-  - title: Arduino
+  - title: DevOps & CI/CD
+    percent: 85
+  - title: System Architecture
+    percent: 85
+  - title: Fullstack Oversight
+    percent: 80
+  - title: Python 3
+    percent: 100
+  - title: PostgreSQL
+    percent: 90
+  - title: Transport Systems Modeling
+    percent: 80
+  - title: Data Analysis & BI
+    percent: 75
+  - title: Technical Documentation
     percent: 95
-  - title: AVR
+  - title: Risk & Quality Management
+    percent: 80
+  - title: Cloud & Network Infrastructure
+    percent: 75
+  - title: Team Leadership & Mentoring
+    percent: 90
+  - title: GIS & Mapping Systems
     percent: 70
+  - title: IoT & Embedded Oversight
+    percent: 75
 
 social:
   - title: telegram
