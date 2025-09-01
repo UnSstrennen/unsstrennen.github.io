@@ -95,8 +95,8 @@ social:
     url: https://stackoverflow.com/users/9231573/Nikita-Shishkin
   - title: github
     url: https://github.com/UnSstrennen
-  - title: habr
-    url: https://habr.com/ru/users/unsstrennen/
+  - title: linkedin
+    url: https://www.linkedin.com/in/nikita-shishkin-07a8a6128
 
 markdown: kramdown
 permalink: pretty

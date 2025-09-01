@@ -1,18 +1,19 @@
-<!-- Footer -->
+{% assign lang = page.lang | default: "en" %}
+
 <footer class="text-center">
     <div class="footer-above">
         <div class="container">
             <div class="row">
                 <div class="footer-col col-md-4">
-                    <h3>{{ site.langs[page.lang].footer.location }}</h3>
+                    <h3>{{ site.langs[lang].footer.location }}</h3>
                     <p>
-                        {% for adress in site.langs[page.lang].address %}
+                        {% for adress in site.langs[lang].address %}
                             {{ adress.line }} <br>
                         {% endfor %}
                     </p>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>{{ site.langs[page.lang].footer.social }}</h3>
+                    <h3>{{ site.langs[lang].footer.social }}</h3>
                     <ul class="list-inline">
                         {% for network in site.social %}
                         <li>
@@ -24,8 +25,8 @@
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>{{ site.langs[page.lang].footer.credits }}</h3>
-                    <p>{{ site.langs[page.lang].credits }}</p>
+                    <h3>{{ site.langs[lang].footer.credits }}</h3>
+                    <p>{{ site.langs[lang].credits }}</p>
                 </div>
             </div>
         </div>
@@ -34,7 +35,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; {{ site.langs[page.lang].footer.copyright }} {{ "now" | date: "%Y" }}
+                    Copyright &copy; {{ site.langs[lang].footer.copyright }} {{ "now" | date: "%Y" }}
                 </div>
             </div>
         </div>
