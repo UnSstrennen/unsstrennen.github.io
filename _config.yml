@@ -101,9 +101,12 @@ social:
 markdown: kramdown
 permalink: pretty
 
+formspree: mdoyzand
+
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       permalink: ""
+
