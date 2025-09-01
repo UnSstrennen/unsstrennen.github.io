@@ -1,0 +1,19 @@
+---
+layout: default
+modal-id: 6
+date: 2023-05-01
+img: ritm3.png
+alt: RITM3 Transport System Implementation
+alt_ru: Внедрение транспортной системы RITM3
+project-date: May 2023
+project-date_ru: Май 2023
+client: RITM3
+client_ru: RITM3
+client-link: https://ritm3.ru
+category: Intelligent Transport Systems / IT Management
+category_ru: Интеллектуальные транспортные системы / Управление ИТ
+title: RITM3 Transport System Implementation
+title_ru: Внедрение транспортной системы RITM3
+description: Led the deployment of the RITM3 intelligent transport system, including infrastructure setup, integration with traffic data sources, and user interface implementation. Coordinated testing and training of personnel for operational efficiency.
+description_ru: Руководил внедрением интеллектуальной транспортной системы RITM3, включая настройку инфраструктуры, интеграцию с источниками транспортных данных и реализацию пользовательского интерфейса. Координировал тестирование и обучение персонала для повышения эффективности эксплуатации.
+---

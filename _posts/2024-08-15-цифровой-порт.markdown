@@ -1,0 +1,19 @@
+---
+layout: default
+modal-id: 7
+date: 2023-01-15
+img: digital-port.png
+alt: Digital Port
+alt_ru: Цифровой порт
+project-date: January 2023
+project-date_ru: Январь 2023
+client: Dudinka port
+client_ru: Порт Дудинки
+client-link: hhttps://mapm.ru/Port/Dudinka
+category: Fullstack Development / IT Project Management
+category_ru: Fullstack-разработка / Управление ИТ-проектами
+title: Digital Port
+title_ru: «Цифровой порт»
+description: Managed the development of the Digital Port platform for automated management of maritime cargo operations. Implemented backend services, database integration, and frontend dashboards for real-time monitoring and reporting.
+description_ru: Руководил разработкой платформы «Цифровой порт» для автоматизации управления морскими грузовыми операциями. Реализовал backend-сервисы, интеграцию с базами данных и frontend-дэшборды для мониторинга и отчетности в реальном времени.
+---
