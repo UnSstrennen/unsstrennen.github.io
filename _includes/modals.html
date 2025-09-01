@@ -10,31 +10,76 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>{{ lang == "ru" ? post.title_ru : post.title }}</h2>
+                        <h2>
+                            {% if lang == "ru" %}
+                                {{ post.title_ru }}
+                            {% else %}
+                                {{ post.title }}
+                            {% endif %}
+                        </h2>
                         <hr class="star-primary">
-                        <img src="{{ site.baseurl }}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ lang == "ru" ? post.alt_ru : post.alt }}">
+                        <img src="{{ site.baseurl }}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                        
                         {% if post.description %}
-                            <p>{{ lang == "ru" ? post.description_ru : post.description }}</p>
+                            <p>
+                                {% if lang == "ru" %}
+                                    {{ post.description_ru }}
+                                {% else %}
+                                    {{ post.description }}
+                                {% endif %}
+                            </p>
                         {% endif %}
+                        
                         <ul class="list-inline item-details">
                             {% if post.client %}
-                                <li>{{ lang == "ru" ? "Заказчик:" : "Client:" }}
-                                    <strong><a href="{{ post.client-link }}">{{ lang == "ru" ? post.client_ru : post.client }}</a></strong>
+                                <li>
+                                    {% if lang == "ru" %}Заказчик:{% else %}Client:{% endif %}
+                                    <strong>
+                                        <a href="{{ post.client-link }}">
+                                            {% if lang == "ru" %}
+                                                {{ post.client_ru }}
+                                            {% else %}
+                                                {{ post.client }}
+                                            {% endif %}
+                                        </a>
+                                    </strong>
                                 </li>
                             {% endif %}
+                            
                             {% if post.project-date %}
-                                <li>{{ lang == "ru" ? "Дата:" : "Date:" }}
-                                    <strong><a class="inactiveLink">{{ lang == "ru" ? post.project-date_ru : post.project-date }}</a></strong>
+                                <li>
+                                    {% if lang == "ru" %}Дата:{% else %}Date:{% endif %}
+                                    <strong>
+                                        <a class="inactiveLink">
+                                            {% if lang == "ru" %}
+                                                {{ post.project-date_ru }}
+                                            {% else %}
+                                                {{ post.project-date }}
+                                            {% endif %}
+                                        </a>
+                                    </strong>
                                 </li>
                             {% endif %}
+                            
                             {% if post.category %}
-                                <li>{{ lang == "ru" ? "Категория:" : "Category:" }}
-                                    <strong><a class="inactiveLink">{{ lang == "ru" ? post.category_ru : post.category }}</a></strong>
+                                <li>
+                                    {% if lang == "ru" %}Категория:{% else %}Category:{% endif %}
+                                    <strong>
+                                        <a class="inactiveLink">
+                                            {% if lang == "ru" %}
+                                                {{ post.category_ru }}
+                                            {% else %}
+                                                {{ post.category }}
+                                            {% endif %}
+                                        </a>
+                                    </strong>
                                 </li>
                             {% endif %}
                         </ul>
+                        
                         <button type="button" class="btn btn-default" data-dismiss="modal">
-                            <i class="fa fa-times"></i> {{ lang == "ru" ? "Закрыть" : "Close" }}
+                            <i class="fa fa-times"></i>
+                            {% if lang == "ru" %}Закрыть{% else %}Close{% endif %}
                         </button>
                     </div>
                 </div>

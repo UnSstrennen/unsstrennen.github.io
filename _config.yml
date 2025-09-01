@@ -6,6 +6,7 @@ langs:
     description: "Tech Lead / IT Manager, моделирование транспортных систем, разработка ПО, документация, IT / Проектный менеджмент"
     keywords: "Сайт,Разработка,Разработчик,IT,Программирование,Проектный менеджмент"
     meta_author: "Шишкин Никита"
+    skills: "Tech Lead / IT Manager"
 
     footer:
       copyright: UnSstrennen
@@ -26,6 +27,7 @@ langs:
     description: "Tech Lead / IT Manager, transport systems modeling, software development, documentation, IT / Project management"
     keywords: "Website,Development,Developer,IT,Programming,Project management"
     meta_author: "Nikita Shishkin"
+    skills: "Tech Lead / IT Manager"
 
     footer:
       copyright: UnSstrennen
@@ -51,8 +53,6 @@ color:
   primary-rgb: "94,203,209"
   secondary: 2e5375
   secondary-dark: 233140
-
-skills: "Tech Lead / IT Manager - Python / DevOps / GIS - Управление проектами"
 
 skill-bars:
   - title: Python
