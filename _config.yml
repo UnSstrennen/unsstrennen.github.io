@@ -55,38 +55,38 @@ color:
   secondary-dark: 233140
 
 skill-bars:
-  - title: IT Strategy & Management
+  - title: IT Strategy
     percent: 95
-  - title: Project Management
+  - title: Project Mgmt
     percent: 90
   - title: Agile / Scrum
     percent: 90
-  - title: DevOps & CI/CD
+  - title: DevOps / CI/CD
     percent: 85
-  - title: System Architecture
+  - title: Sys Architecture
     percent: 85
-  - title: Fullstack Oversight
+  - title: Fullstack Mgmt
     percent: 80
   - title: Python 3
     percent: 100
   - title: PostgreSQL
     percent: 90
-  - title: Transport Systems Modeling
+  - title: High-Load
     percent: 80
-  - title: Data Analysis & BI
+  - title: Data Analysis
     percent: 75
-  - title: Technical Documentation
+  - title: Tech Docs
     percent: 95
-  - title: Risk & Quality Management
+  - title: Risk & Quality
     percent: 80
-  - title: Cloud & Network Infrastructure
+  - title: Cloud / Network
     percent: 75
-  - title: Team Leadership & Mentoring
+  - title: Team Leadership
     percent: 90
-  - title: GIS & Mapping Systems
+  - title: GIS / Maps
     percent: 70
-  - title: IoT & Embedded Oversight
-    percent: 75
+  - title: IoT Oversight
+    percent: 65
 
 social:
   - title: telegram
