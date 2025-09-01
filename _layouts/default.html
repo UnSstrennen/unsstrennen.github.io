@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
-    {% if page.lang == "ru" %}
-        {% include head.ru.html %}
-    {% else %}
-        {% include head.html %}
-    {% endif %}
+    {% include head.html %}
     <body id="page-top" class="index">
     {% if page.lang == "ru" %}
         {% include nav.ru.html %}
-        {% include header.ru.html %}
+        {% include header.html %}
         {% include about.ru.html %}
         {% include portfolio_grid.ru.html %}
         {% include modals.ru.html %}
@@ -19,7 +15,7 @@
         {% else %}
             {% include contact.ru.html %}
         {% endif %}
-        {% include footer.ru.html %}
+        {% include footer.html %}
     {% else %}
         {% include nav.html %}
         {% include header.html %}
