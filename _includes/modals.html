@@ -10,26 +10,26 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>{{ lang == "ru" and post.title_ru ? post.title_ru : post.title }}</h2>
+                        <h2>{{ lang == "ru" ? post.title_ru : post.title }}</h2>
                         <hr class="star-primary">
-                        <img src="{{ site.baseurl }}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                        <img src="{{ site.baseurl }}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ lang == "ru" ? post.alt_ru : post.alt }}">
                         {% if post.description %}
-                            <p>{{ lang == "ru" and post.description_ru ? post.description_ru : post.description }}</p>
+                            <p>{{ lang == "ru" ? post.description_ru : post.description }}</p>
                         {% endif %}
                         <ul class="list-inline item-details">
                             {% if post.client %}
-                                <li>Client:
-                                    <strong><a href="{{ post.client-link }}">{{ lang == "ru" and post.client_ru ? post.client_ru : post.client }}</a></strong>
+                                <li>{{ lang == "ru" ? "Заказчик:" : "Client:" }}
+                                    <strong><a href="{{ post.client-link }}">{{ lang == "ru" ? post.client_ru : post.client }}</a></strong>
                                 </li>
                             {% endif %}
                             {% if post.project-date %}
-                                <li>Date:
-                                    <strong><a class="inactiveLink">{{ post.project-date }}</a></strong>
+                                <li>{{ lang == "ru" ? "Дата:" : "Date:" }}
+                                    <strong><a class="inactiveLink">{{ lang == "ru" ? post.project-date_ru : post.project-date }}</a></strong>
                                 </li>
                             {% endif %}
                             {% if post.category %}
-                                <li>Category:
-                                    <strong><a class="inactiveLink">{{ lang == "ru" and post.category_ru ? post.category_ru : post.category }}</a></strong>
+                                <li>{{ lang == "ru" ? "Категория:" : "Category:" }}
+                                    <strong><a class="inactiveLink">{{ lang == "ru" ? post.category_ru : post.category }}</a></strong>
                                 </li>
                             {% endif %}
                         </ul>
