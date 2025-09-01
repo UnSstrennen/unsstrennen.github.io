@@ -60,10 +60,8 @@ skill-bars:
     percent: 60
   - title: Scrum
     percent: 65
-  - title: Docs (RU)
+  - title: Docs
     percent: 95
-  - title: Docs (EN)
-    percent: 90
   - title: Unit-testing
     percent: 90
   - title: C/C++
